@@ -14,3 +14,7 @@ A new Flutter project.
 ### 1. Developer Tools (https://nomadcoders.co/flutter-for-beginners/lectures/4140)
 
 - Widget Inspector에서 코드 수정 없이 미리보기 가능.
+
+### 2. Buttons Section (https://nomadcoders.co/flutter-for-beginners/lectures/4141)
+
+- Container, BoxDecoration, Padding, EdgeInsets 등 기본 widget 학습.
