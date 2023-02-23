@@ -45,3 +45,12 @@
 
 - https://nomadcoders.co/flutter-for-beginners/lectures/4143
 - code action(코드 왼쪽 노란 전구): code wrap, extract 등 편리 기능 제공.(cmd + .)
+  <br /><br />
+
+### 5. Reusable Widgets (학습일자: 23.02.23)
+
+- https://nomadcoders.co/flutter-for-beginners/lectures/4144
+- code action
+  - Extract Widget으로 widget class 자동 생성 가능. (편의성 높음)
+  - create constructor으로 constructor 자동 생성 가능. (편의성 높음)
+- Button custom widget 생성.
