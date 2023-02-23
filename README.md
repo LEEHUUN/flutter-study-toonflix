@@ -60,3 +60,32 @@
 
 - https://nomadcoders.co/flutter-for-beginners/lectures/4145
 - wallet card widget 퍼블리싱.
+  <br /><br />
+
+### 7. Icons and Transforms (학습일자: 23.02.23)
+
+- https://nomadcoders.co/flutter-for-beginners/lectures/4146
+- Transform widget 사용시 child의 size 영역은 유지한채 노출되는 크기만 조절가능. 즉, parent의 크기에 영향을 주지 않음.
+
+```css
+position: absolute; // css의 absolute와 유사한 기능.
+```
+
+```dart
+  // 사용 예시 s
+  Transform.scale(
+    // transform의 size 영역은 88로 유지한채, 노출되는 크기만 2.2배 증가
+    scale: 2.2,
+    child: Transform.translate(
+      // 중앙에서 dx: 8, dy: 15의 비율만큼 이동
+      offset: const Offset(8, 15),
+      child: const Icon(
+        Icons.euro_rounded,
+        color: Colors.white,
+        size: 88,
+      ),
+    ),
+  )
+```
+
+- Container -> clipBehavior: child가 overflow 했을시 노출 되는 방식 정의 가능.
