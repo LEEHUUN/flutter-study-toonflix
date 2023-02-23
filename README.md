@@ -89,3 +89,11 @@ position: absolute; // css의 absolute와 유사한 기능.
 ```
 
 - Container -> clipBehavior: child가 overflow 했을시 노출 되는 방식 정의 가능.
+
+<br /><br />
+
+### 8. Reusable Cards (학습일자: 23.02.23)
+
+- https://nomadcoders.co/flutter-for-beginners/lectures/4147
+- CurrencyCard custom widget으로 변경.
+- SingleChildScrollView 로 Wrap 하여 스크롤링 가능한 widget 구현 가능.
