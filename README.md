@@ -54,3 +54,9 @@
   - Extract Widget으로 widget class 자동 생성 가능. (편의성 높음)
   - create constructor으로 constructor 자동 생성 가능. (편의성 높음)
 - Button custom widget 생성.
+  <br /><br />
+
+### 6. Cards (학습일자: 23.02.23)
+
+- https://nomadcoders.co/flutter-for-beginners/lectures/4145
+- wallet card widget 퍼블리싱.
