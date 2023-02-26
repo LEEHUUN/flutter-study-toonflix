@@ -148,3 +148,9 @@ position: absolute; // css의 absolute와 유사한 기능.
 - BuildContext: 하위 widget에서 공유되는 데이터. 대표적으로 theme으로 하위 widget의 스타일을 전역화 가능함.
   - react로 생각하면 props drilling 방지로 사용 할 듯.
     <br /><br />
+
+### 4.4 Widget Lifecycle (학습일자: 23.02.26)
+
+- https://nomadcoders.co/flutter-for-beginners/lectures/4153
+- 부모 요소에 의존하는 state 초기화가 필요한 경우, initState 사용.
+- dispose: widget이 스크린에서 제거될때 수행되는 method.
