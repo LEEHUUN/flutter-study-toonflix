@@ -97,3 +97,10 @@ position: absolute; // css의 absolute와 유사한 기능.
 - https://nomadcoders.co/flutter-for-beginners/lectures/4147
 - CurrencyCard custom widget으로 변경.
 - SingleChildScrollView 로 Wrap 하여 스크롤링 가능한 widget 구현 가능.
+  <br /><br />
+
+### 9. Code Challenge (학습일자: 23.02.26)
+
+- https://nomadcoders.co/flutter-for-beginners/lectures/4148
+- mission: 8강에서 생성한 CurrencyCard에 Transform 내장하기.
+  - order로 offset 계산하도록 로직 추가.

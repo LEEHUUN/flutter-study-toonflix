@@ -4,20 +4,20 @@ class CurrencyCard extends StatelessWidget {
   final String name, code, amount;
   final IconData icon;
   final bool isInverted;
+  final double order;
 
   final _blackColor = const Color(0xFF1F2123);
 
-  const CurrencyCard({
-    super.key,
-    required this.name,
-    required this.code,
-    required this.amount,
-    required this.icon,
-    required this.isInverted,
-  });
+  const CurrencyCard(
+      {super.key,
+      required this.name,
+      required this.code,
+      required this.amount,
+      required this.icon,
+      required this.isInverted,
+      required this.order});
 
-  @override
-  Widget build(BuildContext context) {
+  card() {
     return Container(
       clipBehavior: Clip.hardEdge,
       decoration: BoxDecoration(
@@ -83,5 +83,17 @@ class CurrencyCard extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  transformedCard() {
+    return Transform.translate(
+      offset: Offset(0, -30 * (order - 1)),
+      child: card(),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return order == 1 ? card() : transformedCard();
   }
 }
