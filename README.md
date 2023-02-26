@@ -134,3 +134,9 @@ position: absolute; // css의 absolute와 유사한 기능.
     ```
 
     <br/><br/>
+
+### 4.2 Recap (학습일자: 23.02.26)
+
+- https://nomadcoders.co/flutter-for-beginners/lectures/4151
+- state, setState 복습.
+- state가 특정 값을 가지게 되었을때만 rerender하는 등으로 활용 할 수 있을듯.
