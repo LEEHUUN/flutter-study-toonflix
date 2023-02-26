@@ -90,7 +90,7 @@ position: absolute; // css의 absolute와 유사한 기능.
 
 - Container -> clipBehavior: child가 overflow 했을시 노출 되는 방식 정의 가능.
 
-<br /><br />
+<br />
 
 ### 3.8 Reusable Cards (학습일자: 23.02.23)
 
@@ -133,10 +133,18 @@ position: absolute; // css의 absolute와 유사한 기능.
       });
     ```
 
-    <br/><br/>
+    <br/>
 
 ### 4.2 Recap (학습일자: 23.02.26)
 
 - https://nomadcoders.co/flutter-for-beginners/lectures/4151
 - state, setState 복습.
 - state가 특정 값을 가지게 되었을때만 rerender하는 등으로 활용 할 수 있을듯.
+  <br /><br />
+
+### 4.3 BuildContext (학습일자: 23.02.26)
+
+- https://nomadcoders.co/flutter-for-beginners/lectures/4152
+- BuildContext: 하위 widget에서 공유되는 데이터. 대표적으로 theme으로 하위 widget의 스타일을 전역화 가능함.
+  - react로 생각하면 props drilling 방지로 사용 할 듯.
+    <br /><br />
