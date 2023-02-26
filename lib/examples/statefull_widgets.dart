@@ -11,7 +11,9 @@ class _StatefullWidgetsState extends State<StatefullWidgets> {
   int counter = 1;
 
   void onClicked() {
-    counter = counter + 1;
+    setState(() {
+      counter += 1;
+    });
   }
 
   @override

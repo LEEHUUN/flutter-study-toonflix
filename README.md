@@ -113,3 +113,24 @@ position: absolute; // css의 absolute와 유사한 기능.
 - state full example 제작.
 - state: ui상으로 리랜더링 뇌어야 하는 변화하는 데이터.
   <br /><br />
+
+### 4.1 setState (학습일자: 23.02.26)
+
+- https://nomadcoders.co/flutter-for-beginners/lectures/4150
+- state 변경시 setState를 실행시켜주어야 rerender 발생.(즉, Widget build를 재실행함.)
+
+  - 여러 state를 연산 후, 한번에 구문으로 사용 할 수 있다는 점에서 reate에 비해 가독성이 좋은듯.
+  - setState 내부에 state를 넣지 않아도 리랜더링이 일어나지만 가독성을 위해 내부에 state값을 넣자.
+
+    ```dart
+      ex 1.
+      counter = counter + 1;
+      setState(() {});
+
+      ex 2.
+      setState(() {
+        counter = counter + 1;
+      });
+    ```
+
+    <br/><br/>
